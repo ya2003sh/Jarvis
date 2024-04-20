@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Kaushan+Script&family=M+PLUS+1+Code&family=Montserrat&family=Poppins:ital,wght@0,400;0,500;1,500&family=Quicksand:wght@500&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    font-family: "Poppins",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+button{
+    color: black;
+    top: 50%;
+    left: 50%;
+}
+
+.machine{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+}
+
+.machine *{
+    position: absolute;
+}
+
+#heart{
+    bottom: 0;
+    left: 0;
+}
+
+#iron_man{
+    bottom: 0;
+    right: 0;
+}
+
+
+
+#start{
+    text-align: center;
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    top: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+#start:hover{
+    background-color: lightblue;
+    border-radius: 30px;
+}
+
+
+#stop{
+    position: absolute;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    height: 40px;
+    width: 100px;
+    top: 32px;
+    left: 470px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+#stop:hover{
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+
+#speak{
+    position: absolute;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    height: 40px;
+    width: 100px;
+    top: 32px;
+    left: 800px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+
+#speak:hover{
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+#suit{
+    height: 290px;
+    width: 290px;
+}
